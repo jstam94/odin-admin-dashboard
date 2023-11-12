@@ -49,7 +49,6 @@ main{
 
 
 .card{
-    box-sizing: border-box;
     padding: 20px;
 }
 .card-wrapper > .card{
@@ -93,6 +92,7 @@ button{
 .card{
     background-color: white;
     border-radius: 8px;
+    box-sizing: border-box;
 }
 
 .card p{
@@ -101,6 +101,9 @@ button{
 
 .card-wrapper > .card{
  border-left: 8px solid var(--odinyellow);
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 }
 
 
@@ -125,5 +128,14 @@ svg{
     height: 2em;
     width: 2em;
     margin-right: 20px;
+}
+
+main svg{
+    fill: black;
+}
+
+.card-actions{
+    align-self: flex-end;
+    margin-top: 40px;
 }
 
