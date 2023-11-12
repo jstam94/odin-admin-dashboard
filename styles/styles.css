@@ -55,6 +55,9 @@ main{
 .trending-wrapper > .card, .announcement-wrapper > .card{
     width: 250px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 /* Theme */
 
