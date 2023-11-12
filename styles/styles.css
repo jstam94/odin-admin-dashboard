@@ -41,7 +41,12 @@ input, main, main > div{
 }
 
 
+	
 button{
     border-radius: 40px;
+    box-sizing: border-box;
+    width: 75px;
+    padding: 8px;
+    border: none;
 }
 
