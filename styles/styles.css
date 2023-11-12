@@ -49,8 +49,13 @@ main{
 .card-wrapper > .card{
     width: 400px;
     height: 200px;
+    box-sizing: border-box;
 }
 
+.trending-wrapper > .card, .announcement-wrapper > .card{
+    width: 250px;
+    height: 400px;
+}
 /* Theme */
 
 .sidebar, button{
@@ -74,10 +79,19 @@ button{
 
 .card{
     background-color: white;
-    /* Border below is temporary*/
-    border: 1px solid black;
+}
+
+.card p{
+    color: grey;
 }
 
 .card-wrapper > .card{
  border-left: 8px solid var(--odinyellow);
+}
+
+
+/* Typeface */
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
