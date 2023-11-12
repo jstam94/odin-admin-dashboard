@@ -1,3 +1,14 @@
+/* Variables */
+
+:root{
+    --odinyellow: #f0b429;
+    --odinblue: #1992d4;
+    --odingrey: #e2e8f0;
+}
+
+
+/* Layout */
+
 .container{
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -6,3 +17,20 @@
 .sidebar {
     grid-area: 1 / 1 / 3 / 2;
 }
+
+
+
+/* Theme */
+
+.sidebar, button{
+    background: var(--odinblue);
+    color: white;
+}
+
+input, main, main > div{
+    background: var(--odingrey);
+}
+
+
+
+
