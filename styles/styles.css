@@ -26,6 +26,8 @@
 
 li{
     margin-bottom: 15px;
+    display: flex;
+    align-items: center;
 }
 
 main{
@@ -115,3 +117,14 @@ button{
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* SVG Stuff */
+
+svg{
+    fill: white;
+    height: 2em;
+    width: 2em;
+    margin-right: 20px;
+}
+
