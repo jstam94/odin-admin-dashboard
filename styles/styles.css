@@ -50,3 +50,12 @@ button{
     border: none;
 }
 
+.card{
+    background-color: white;
+    /* Border below is temporary*/
+    border: 1px solid black;
+}
+
+.card-wrapper > .card{
+ border-left: 8px solid var(--odinyellow);
+}
