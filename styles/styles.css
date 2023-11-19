@@ -40,7 +40,8 @@ li{
 main{
     display: grid;
     grid-template-columns: 1fr 300px;
-    padding: 12px
+    padding: 12px;
+    row-gap: 30px
 }
 
 .search{
@@ -59,7 +60,8 @@ main{
 .card-wrapper{
     box-sizing: border-box;
     display: grid;
-    gap: 12px;
+    column-gap: 12px;
+    row-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
@@ -151,6 +153,15 @@ button{
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+h3{
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 
