@@ -84,6 +84,17 @@ main{
     padding-bottom: 40px;
 }
 
+.row:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+header{
+    padding: 40px;
+}
+
+
 /* Theme */
 
 .sidebar, button{
@@ -103,6 +114,7 @@ button{
     width: 75px;
     padding: 8px;
     border: none;
+    margin: 0 15px;
 }
 
 .card{
