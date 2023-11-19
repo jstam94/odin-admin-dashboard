@@ -188,3 +188,34 @@ svg{
     margin-top: 40px;
 }
 
+
+
+/* profile pics */
+
+
+.small-pic, .large-pic{
+    border-radius: 50%;
+    border: 1px solid grey;
+}
+.small-pic{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.large-pic{
+    height: ;
+    width: ;
+}
+
+.user{
+    display: flex;
+    align-content: center;
+    gap: 15px;
+}
+
+.user-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
