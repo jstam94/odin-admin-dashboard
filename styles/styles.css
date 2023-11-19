@@ -40,17 +40,20 @@ li{
 main{
     display: grid;
     grid-template-columns: 1fr 300px;
-    padding: 12px;
+    padding: 30px;
     row-gap: 30px
 }
 
 .search{
     display: flex;
-    align-content: center;
+    align-items: center;
 }
 
 [type='search']{
-    flex-basis: 800px
+    min-width: 800px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1.5rem;
 }
 
 .project-wrapper{
@@ -85,6 +88,7 @@ main{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 
 .row:nth-child(2){
     display: flex;
@@ -234,4 +238,30 @@ svg{
 }
 .intro-text h1{
     font-size: 1.5rem;
+}
+
+
+.current-user{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.current-user svg{
+    margin: 0;
+}
+.current-user h2{
+    margin: 0;
+}
+
+
+.header-actions{
+    margin: auto 0;
+}
+
+
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
 }
